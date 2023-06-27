@@ -1,3 +1,5 @@
+Group Member: Juanita Sands and Simon Gomes
+
 # Crowdfunding ETL Project
 
 A collaborative project to build an ETL pipeline using Python, Pandas, and PostgreSQL for extracting, transforming, and loading crowdfunding data from Excel files into a relational database.
