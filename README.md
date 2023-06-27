@@ -1,4 +1,4 @@
-Group Member: Juanita Sands and Simon Gomes
+# Group Member: Juanita Sands and Simon Gomes
 
 # Crowdfunding ETL Project
 
