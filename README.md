@@ -12,27 +12,29 @@ In this project, we engaged in practicing the construction of an ETL pipeline fo
 
 - Extract and transform crowdfunding and contact data from Excel files
 - Create and export Category, Subcategory, Campaign, and Contact DataFrames as CSV files
-- Design an ERD and table schema for the database
-- Create and populate PostgreSQL database tables
+- Design an ERD and table schema for the database, we used https://www.quickdatabasediagrams.com/
+- Create and populate PostgreSQL database tables, we used pgAdmin 4
 
 ## Installation
 
 1. Clone the repository.
-2. Install required Python packages: `pandas`, `openpyxl`, and `psycopg2`.
+2. Install required Python packages: `pandas`, `numpy`, `datetime` and `json`.
 3. Set up a PostgreSQL server and create a new database called `crowdfunding_db`.
 
 ## Usage
 
-1. Run the Jupyter Notebook to extract and transform data, and create CSV files.
-2. Use the provided `crowdfunding_db_schema.sql` file to create tables in the PostgreSQL database.
-3. Load the CSV files into the corresponding PostgreSQL tables.
+1. Run the [Jupyter Notebook](ETL_Mini_Project_SGomes_JSands.ipynb) to extract and transform data, and create CSV files.
+2. Use the provided [sql](crowdfunding_db_schema_SGomes_JSands.sql) file to create tables in the PostgreSQL database.
+3. Load the CSV files into the corresponding PostgreSQL tables. Ensure the CSV files are loaded in the order setout in the sql file.
 4. Query the database to verify the data has been loaded correctly.
 
 ## Built With
 
 - Python
 - Pandas
-- PostgreSQL
+- Json
+- NumPy
+- datetime
+- PostgreSQL/PGAdmin
 - Jupyter Notebook
 - Excel
-
